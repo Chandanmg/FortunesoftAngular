@@ -1,0 +1,80 @@
+
+.mainimage{
+    width: 100%;
+    height: 36vh;
+    opacity: 0.6;
+}
+
+.person{
+    width: 100%;
+    height: 18vh;
+}
+
+
+.container {
+    position: relative;
+    height: 36vh;
+    background-color: black;
+}
+  
+.overlay {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+    border-radius: 50%;
+    // display: flex;
+    // align-items: center;
+    // text-align: center;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.imagetext{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.icon{
+    position: absolute;
+    top: 5%;
+    left: 96%;
+    // transform: translateX(-50%);
+    z-index: 1;
+    // background-color: black;
+}
+
+.text{
+    font-size: 3.5vw;
+    color: #fffbfb;
+    font-weight: bold;
+    letter-spacing: 0.2vw;
+    // font-family: 'Montserrat';
+    // font: normal normal bold 32px/39px Montserrat;
+    // font-family: Montserrat-SemiBold;
+    
+}
+
+.second{
+    margin-top: 12vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    // background-color: bisque;
+    // width: 100%;
+    // height: 30vh;
+    // position: absolute;
+}
+
+.card{
+    width: 9vw;
+    height: 10vw;
+    // background-color: #fffbfb;
+    border-radius: 5%;
+    box-shadow: 0px 7px 13px rgba(0, 0.8, 0.4, 0.4);
+}
